@@ -4,15 +4,76 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    
+    <!-- metaタグ２つ keywords description -->
+    <meta name="description" content="techacademyの課題で自己紹介ページを作成しました">
+    <meta name="keywords" content="HTML,bootstrap,techacademy,つつみすなお">
+    
+    <title>自己紹介</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    <!-- CSS -->
+    <style>
+      #header,#footer {
+	      height:100px;
+      	background-image:url("momiji1.jpg");	
+      	background-size:contain;	
+      	background-color:blue;		
+      
+      }
+      
+    
+      body{
+        font-size:16px;
+      }
+      
+      h1 {
+        color:dimgray;
+        text-align: right;
+        padding-right:20px;
+      }
+      
+      h2 {
+        color:dimgray;
+        text-align: right;
+        padding-right:-10px;
+      }
+    </style>
   </head>
+  
   <body>
-    <h1>タイトルを変更しました2</h1>
+    <!-- ヘッダー -->
+    <div id="header" class="container">
+      
+    </div>
+    <!-- メイン -->
+    <div class="container">
+       <div class="row" style="padding-bottom: 12px; background:bisque;">
+         <!-- メイン -->
+         <div class="col-sm-10 col-xs-10 col-sm-offset-1" >
+            <h1>つつみ すなお</h1>
+            <h2>福岡県在住</h2>
+            <br />
+            <br />
+            <p>年末は、kindlePaperWhiteを買って、<br />
+            購入したまま手をつけていない電子書籍を消化したいです。</p>
+            <a class="btn btn-success" href="https://github.com/anko55555/">githubページへのリンクは、こちらをクリック</a> 
+         </div>
+       </div>
+       
+     </div>
+    <!-- フッター -->
+    <div id="footer" class="container" >
+      
+    </div>
+   
+    
+    
   </body>
 </html>
